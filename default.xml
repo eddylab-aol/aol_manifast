@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="ssh://git@github.com/eddylab-aol/" />
+  <default revision="master" remote="origin" />
+
+  <project path="."
+           name="aol_buildroot.git" remote="origin" />
+
+  <project path="services-template/"
+           name="aol_services.git" remote="origin" />
+
+  <project path="updatezip/"
+           name="aol_u5_updatezip.git" remote="origin" />
+
+</manifest>
